@@ -15,9 +15,7 @@ Our dataset is the Reddit submissions and comments dataset. The topics mainly in
 After the data preprocessing, for each single Reddit post, we concatenate the entire comments to a single context and divide it into smaller documents. We also implement a sliding window chunking methods to capture better relationships between the comments.
 
 We use text embedding models (all-MiniLM-L12-v2, GTE-Large, nq-distilbert-base-v1) to embed each document into high dimensional vector space to obtain a dense representation. We selected GTE-Large model based on the metric:
-$$
-\text{Accuracy} = \frac{|\text{relevant retrieval}|}{\text{min(|retrieval|, |total relevant documents|)}}
-$$
+$$\text{Accuracy} = \frac{|\text{relevant retrieval}|}{\text{min(|retrieval|, |total relevant documents|)}}$$
 
 We store the vector embeddings in vector store powered by Facebook AI Similarity Search (FAISS). We also associate each document with its metadata such as its topic and post type.
 
