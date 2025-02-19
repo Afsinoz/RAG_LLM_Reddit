@@ -1,6 +1,7 @@
-# Erdos-Deep-Learning-2024-RAG-Project
 
-This is a final project of Deep Learning Bootcamp of Erdos Institute by Afsin Ozdemir, Enhao Feng.
+# Optimization of organization chatbot by leveraging RAG systems with LLMs.
+
+This is a final project of Deep Learning Bootcamp of Erdos Institute by Afsin Ozdemir, Enhao Feng and Ness Mayker Chen.
 
 ## Overview
 
